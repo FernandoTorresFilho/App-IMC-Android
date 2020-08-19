@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraIMC"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso:"
+        android:textSize="26sp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/ed_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <TextView
+        android:id="@+id/tv_altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura:"
+        android:textSize="26sp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/ed_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular">
+
+    </Button>
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Resultado"
+        android:textSize="26sp"
+        android:textColor="@color/colorPrimary">
+
+    </TextView>
+</LinearLayout>
